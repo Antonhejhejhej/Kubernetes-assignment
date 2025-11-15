@@ -17,7 +17,6 @@ spec:
     spec:
       containers:
       - name: dotnet-mvc
-        # ✅ Uppdaterad region
         image: <YOUR-AWS-ACCOUNT-ID>.dkr.ecr.eu-west-1.amazonaws.com/dotnet-mvc-app:latest
         imagePullPolicy: Always
         ports:
