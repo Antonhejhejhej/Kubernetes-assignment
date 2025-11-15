@@ -1,0 +1,46 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+*.csproj.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets och credentials
+*.env
+.env.local
+secrets.yaml
+*-secrets.yaml
+.aws/
+kubeconfig
+*.pem
+*.key
+
+# Local overrides med riktiga värden
+deployment.local.yaml
+*-local.yaml
+local-config.sh
+
+# Backups
+*.bak
+*.backup
+*.orig
+
+# Logs
+*.log
